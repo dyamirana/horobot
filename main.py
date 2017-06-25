@@ -7,6 +7,7 @@ import os
 import traceback
 from flask import Flask, request
 import utils
+import requests
 import time
 import logging
 import vkcallbacklib
@@ -142,10 +143,16 @@ def callback():
 
     return str(set_callback(url=settings.host+"/vkbot")), 200
 
-# import dispatcher
-# upd_thread = threading.Thread(target=dispatcher.DispatcherUtils(vkapi).worker)
-#
-# upd_thread.start()
+# import dispatchera
+if 'appname' in os.environ:
+    def pinger():
+        while True:
+            requests.get(settings.host + "/pinger")
+            time.sleep(600)
+
+    upd_thread = threading.Thread(target=pinger)
+
+    upd_thread.start()
 try:
     print 'Bot successful started'
     threading.Thread(target=check_server).start()
