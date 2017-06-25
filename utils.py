@@ -22,20 +22,21 @@ class DB:
     def __init__(self, name):
         self.db_name = name
         try:
-# #             with sqlite3.connect(os.path.dirname(__file__) + os.sep + 'databases' + os.sep + name + '.db') as con:
-# #                 if name == 'users':
-# #                     cur = con.cursor()
-# #                     cur.execute(
-# #                         '''CREATE TABLE IF NOT EXISTS {}
-#         (
-#     user_id INT PRIMARY KEY,
-#     member BOOLEAN,
-#     date INT,
-#     subscription INT,
-#     data1 INT,
-#     data2 TEXT,
-#     data3 TEXT
-#         );'''.format(name))
+            pass
+    #         with sqlite3.connect(os.path.dirname(__file__) + os.sep + 'databases' + os.sep + name + '.db') as con:
+    #             if name == 'users':
+    #                 cur = con.cursor()
+    #                 cur.execute(
+    #                     '''CREATE TABLE IF NOT EXISTS {}
+    #     (
+    # user_id INT PRIMARY KEY,
+    # member BOOLEAN,
+    # date INT,
+    # subscription INT,
+    # data1 INT,
+    # data2 TEXT,
+    # data3 TEXT
+    #     );'''.format(name))
         except:
             if settings.debug: print u'Error in utils: trying connect to db\n'+traceback.format_exc()+'\n'
             logging.error(u'Error in utils: trying connect to db\n'+traceback.format_exc()+'\n')
