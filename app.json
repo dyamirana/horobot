@@ -1,0 +1,32 @@
+{
+  "name": "Horobot",
+  "description": "VKbot",
+  "repository": "https://github.com/dyamirana/horobot",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/VK.com-logo.svg/2000px-VK.com-logo.svg.png",
+  "keywords": ["node", "express", "static"],
+  "env": {
+    "groupid": {
+      "description": "Id of vk group)",
+      "value": "",
+      "required": false
+
+    },
+    "token": {
+      "description": "Token from VK group",
+      "value": ""
+    },
+    "appname": {
+      "description": "App name (enter the same name as in field 'App name')",
+      "value": ""
+    },
+    "VK_ADMIN_ID": {
+      "description": "ID of admin(without id, only numbers)",
+      "value": "183156791"
+    }
+  },
+    "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-python"
+    }
+  ]
+}

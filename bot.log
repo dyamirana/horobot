@@ -1,0 +1,2996 @@
+INFO     [2017-06-07 15:41:24,295]  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+INFO     [2017-06-07 15:47:07,994]  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+INFO     [2017-06-07 15:47:58,031]  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+INFO     [2017-06-07 15:48:32,225]  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+INFO     [2017-06-07 15:49:00,572] 82.208.101.236 - - [07/Jun/2017 15:49:00] "[1m[31mGET /vkbot HTTP/1.1[0m" 405 -
+INFO     [2017-06-07 15:49:00,999] 82.208.101.236 - - [07/Jun/2017 15:49:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO     [2017-06-07 15:50:19,774]  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+INFO     [2017-06-07 15:50:26,719] Starting new HTTPS connection (1): api.vk.com
+DEBUG    [2017-06-07 15:50:27,423] "POST /method/groups.setCallbackServer HTTP/1.1" 200 58
+DEBUG    [2017-06-07 15:50:32,824] "POST /method/groups.setCallbackServer HTTP/1.1" 200 58
+DEBUG    [2017-06-07 15:50:38,243] "POST /method/groups.setCallbackServer HTTP/1.1" 200 58
+DEBUG    [2017-06-07 15:50:43,674] "POST /method/groups.setCallbackServer HTTP/1.1" 200 58
+DEBUG    [2017-06-07 15:50:48,770] "POST /method/groups.setCallbackServer HTTP/1.1" 200 60
+DEBUG    [2017-06-07 15:50:49,066] "POST /method/groups.getCallbackConfirmationCode HTTP/1.1" 200 50
+INFO     [2017-06-07 15:50:49,067] 87.240.173.200 - - [07/Jun/2017 15:50:49] "[37mPOST /vkbot HTTP/1.1[0m" 200 -
+DEBUG    [2017-06-07 15:50:49,503] "POST /method/groups.setCallbackServer HTTP/1.1" 200 58
+DEBUG    [2017-06-07 15:50:54,936] "POST /method/groups.setCallbackServer HTTP/1.1" 200 58
+DEBUG    [2017-06-07 15:51:00,337] "POST /method/groups.setCallbackServer HTTP/1.1" 200 58
+DEBUG    [2017-06-07 15:51:05,784] "POST /method/groups.setCallbackServer HTTP/1.1" 200 58
+DEBUG    [2017-06-07 15:51:10,903] "POST /method/groups.setCallbackServer HTTP/1.1" 200 60
+DEBUG    [2017-06-07 15:51:11,335] "POST /method/groups.getCallbackConfirmationCode HTTP/1.1" 200 50
+INFO     [2017-06-07 15:51:11,336] 87.240.160.181 - - [07/Jun/2017 15:51:11] "[37mPOST /vkbot HTTP/1.1[0m" 200 -
+DEBUG    [2017-06-07 15:51:16,545] "POST /method/groups.setCallbackServer HTTP/1.1" 200 58
+DEBUG    [2017-06-07 15:51:22,000] "POST /method/groups.setCallbackServer HTTP/1.1" 200 58
+DEBUG    [2017-06-07 15:51:27,416] "POST /method/groups.setCallbackServer HTTP/1.1" 200 58
+DEBUG    [2017-06-07 15:51:29,134] "POST /method/groups.getCallbackConfirmationCode HTTP/1.1" 200 50
+INFO     [2017-06-07 15:51:29,135] 87.240.173.231 - - [07/Jun/2017 15:51:29] "[37mPOST /vkbot HTTP/1.1[0m" 200 -
+INFO     [2017-06-07 15:51:34,657]  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+INFO     [2017-06-07 15:51:35,308] Starting new HTTPS connection (1): api.vk.com
+DEBUG    [2017-06-07 15:51:35,581] "POST /method/groups.setCallbackServer HTTP/1.1" 200 56
+INFO     [2017-06-07 15:51:35,583] 82.208.101.236 - - [07/Jun/2017 15:51:35] "[37mGET /vk HTTP/1.1[0m" 200 -
+INFO     [2017-06-07 15:52:00,969] 87.240.173.252 - - [07/Jun/2017 15:52:00] "[37mPOST /vkbot HTTP/1.1[0m" 200 -
+ERROR    [2017-06-07 15:52:00,970] Error while executing handler:
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/vkcallbacklib.py", line 68, in updater
+    i['func'](utils.dotdict(u))
+  File "/home/daryanovsel/projects/VKbot/main.py", line 65, in mirror
+    answer_vk(message)
+  File "/home/daryanovsel/projects/VKbot/messages.py", line 21, in answer
+    for i in message.attachments:
+TypeError: 'NoneType' object is not iterable
+
+INFO     [2017-06-07 15:52:48,293]  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+INFO     [2017-06-07 15:52:56,088] 87.240.173.147 - - [07/Jun/2017 15:52:56] "[37mPOST /vkbot HTTP/1.1[0m" 200 -
+INFO     [2017-06-07 15:53:18,601]  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+INFO     [2017-06-07 18:25:24,199]  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+INFO     [2017-06-07 18:25:37,304] 87.240.160.170 - - [07/Jun/2017 18:25:37] "[37mPOST /vkbot HTTP/1.1[0m" 200 -
+INFO     [2017-06-07 18:26:27,482]  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+INFO     [2017-06-07 18:26:35,180] 87.240.173.184 - - [07/Jun/2017 18:26:35] "[37mPOST /vkbot HTTP/1.1[0m" 200 -
+INFO     [2017-06-07 18:27:48,199]  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+INFO     [2017-06-07 18:27:52,136] 87.240.173.222 - - [07/Jun/2017 18:27:52] "[37mPOST /vkbot HTTP/1.1[0m" 200 -
+INFO     [2017-06-07 18:28:35,710]  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+INFO     [2017-06-07 18:28:38,529] 87.240.173.196 - - [07/Jun/2017 18:28:38] "[37mPOST /vkbot HTTP/1.1[0m" 200 -
+INFO     [2017-06-07 18:28:58,925]  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+INFO     [2017-06-07 18:29:03,162] 87.240.173.191 - - [07/Jun/2017 18:29:03] "[37mPOST /vkbot HTTP/1.1[0m" 200 -
+INFO     [2017-06-07 18:29:18,049]  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+INFO     [2017-06-07 18:30:06,990]  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+INFO     [2017-06-07 18:30:11,154] 87.240.160.182 - - [07/Jun/2017 18:30:11] "[37mPOST /vkbot HTTP/1.1[0m" 200 -
+INFO     [2017-06-07 18:30:11,158] Starting new HTTPS connection (1): api.vk.com
+DEBUG    [2017-06-07 18:30:11,551] "POST /method/messages.send HTTP/1.1" 200 278
+ERROR    [2017-06-07 18:30:11,555] Error in api.func.send_message
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/apifunc.py", line 30, in send_message
+    mesid = self.api.messages.send(user_id=id, message=message,forward_messages=forward, attachment=','.join(atch),random_id=randint(1, 9999))
+  File "/usr/local/lib/python2.7/dist-packages/vk-2.0.2-py2.7.egg/vk/api.py", line 183, in __call__
+    return self._api._session.make_request(self)
+  File "/usr/local/lib/python2.7/dist-packages/vk-2.0.2-py2.7.egg/vk/api.py", line 105, in make_request
+    raise error
+VkAPIError: 100. One of the parameters specified was missing or invalid: user_id not integer. request_params = {u'user_id': u'<built-in function id>', u'random_id': u'4737', u'attachment': u'', u'v': u'5.63', u'oauth': u'1', u'message': u'\u0420 \u0421\u201a\u0420\xb5\u0420\xb1\u0420\xb5 \u0420\u0457\u0421\u0402\u0420\u0451\u0420\u0406\u0420\xb5\u0421\u201a!', u'method': u'messages.send'}
+
+
+INFO     [2017-06-07 18:30:30,313]  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+INFO     [2017-06-07 18:30:33,300] 87.240.173.202 - - [07/Jun/2017 18:30:33] "[37mPOST /vkbot HTTP/1.1[0m" 200 -
+INFO     [2017-06-07 18:30:33,304] Starting new HTTPS connection (1): api.vk.com
+DEBUG    [2017-06-07 18:30:33,594] "POST /method/messages.send HTTP/1.1" 200 278
+ERROR    [2017-06-07 18:30:33,596] Error in api.func.send_message
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/apifunc.py", line 30, in send_message
+    mesid = self.api.messages.send(user_id=id, message=message,forward_messages=forward, attachment=','.join(atch),random_id=randint(1, 9999))
+  File "/usr/local/lib/python2.7/dist-packages/vk-2.0.2-py2.7.egg/vk/api.py", line 183, in __call__
+    return self._api._session.make_request(self)
+  File "/usr/local/lib/python2.7/dist-packages/vk-2.0.2-py2.7.egg/vk/api.py", line 105, in make_request
+    raise error
+VkAPIError: 100. One of the parameters specified was missing or invalid: user_id not integer. request_params = {u'user_id': u'<built-in function id>', u'random_id': u'2229', u'attachment': u'', u'v': u'5.63', u'oauth': u'1', u'message': u'\u0420 \u0421\u201a\u0420\xb5\u0420\xb1\u0420\xb5 \u0420\u0457\u0421\u0402\u0420\u0451\u0420\u0406\u0420\xb5\u0421\u201a!', u'method': u'messages.send'}
+
+
+INFO     [2017-06-07 18:31:14,490]  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+INFO     [2017-06-07 18:31:20,283] 87.240.173.166 - - [07/Jun/2017 18:31:20] "[37mPOST /vkbot HTTP/1.1[0m" 200 -
+INFO     [2017-06-07 18:31:20,288] Starting new HTTPS connection (1): api.vk.com
+DEBUG    [2017-06-07 18:31:20,518] "POST /method/messages.send HTTP/1.1" 200 278
+ERROR    [2017-06-07 18:31:20,521] Error in api.func.send_message
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/apifunc.py", line 30, in send_message
+    mesid = self.api.messages.send(user_id=id, message=message,forward_messages=forward, attachment=','.join(atch),random_id=randint(1, 9999))
+  File "/usr/local/lib/python2.7/dist-packages/vk-2.0.2-py2.7.egg/vk/api.py", line 183, in __call__
+    return self._api._session.make_request(self)
+  File "/usr/local/lib/python2.7/dist-packages/vk-2.0.2-py2.7.egg/vk/api.py", line 105, in make_request
+    raise error
+VkAPIError: 100. One of the parameters specified was missing or invalid: user_id not integer. request_params = {u'user_id': u'<built-in function id>', u'random_id': u'6555', u'attachment': u'', u'v': u'5.63', u'oauth': u'1', u'message': u'\u0420 \u0421\u201a\u0420\xb5\u0420\xb1\u0420\xb5 \u0420\u0457\u0421\u0402\u0420\u0451\u0420\u0406\u0420\xb5\u0421\u201a!', u'method': u'messages.send'}
+
+
+INFO     [2017-06-07 18:31:41,018]  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+INFO     [2017-06-07 18:31:45,264] 87.240.173.235 - - [07/Jun/2017 18:31:45] "[37mPOST /vkbot HTTP/1.1[0m" 200 -
+INFO     [2017-06-07 18:31:45,268] Starting new HTTPS connection (1): api.vk.com
+DEBUG    [2017-06-07 18:31:45,614] "POST /method/messages.send HTTP/1.1" 200 37
+INFO     [2017-06-07 18:31:55,141] 87.240.173.213 - - [07/Jun/2017 18:31:55] "[37mPOST /vkbot HTTP/1.1[0m" 200 -
+DEBUG    [2017-06-07 18:31:55,347] "POST /method/messages.send HTTP/1.1" 200 37
+INFO     [2017-06-07 18:32:03,379] 87.240.173.166 - - [07/Jun/2017 18:32:03] "[37mPOST /vkbot HTTP/1.1[0m" 200 -
+DEBUG    [2017-06-07 18:32:03,588] "POST /method/messages.send HTTP/1.1" 200 37
+INFO     [2017-06-07 18:47:48,051]  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+ERROR    [2017-06-07 18:48:02,333] Error in main while importing messages module
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/main.py", line 62, in <module>
+    answer_vk=messages.MessageModule(vkapi).answer
+  File "/home/daryanovsel/projects/VKbot/messages.py", line 8, in __init__
+    self.send_message = apifunc.Functions(api).send_message
+AttributeError: 'module' object has no attribute 'Functions'
+
+
+INFO     [2017-06-07 18:48:02,338]  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+INFO     [2017-06-07 18:48:13,188]  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+INFO     [2017-06-07 18:48:42,319] 87.240.160.162 - - [07/Jun/2017 18:48:42] "[37mPOST /vkbot HTTP/1.1[0m" 200 -
+INFO     [2017-06-07 18:48:42,323] Starting new HTTPS connection (1): api.vk.com
+DEBUG    [2017-06-07 18:48:42,740] "POST /method/messages.send HTTP/1.1" 200 37
+ERROR    [2017-06-07 19:09:50,667] Error in main while importing messages module
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/main.py", line 61, in <module>
+    import messages
+  File "/home/daryanovsel/projects/VKbot/messages.py", line 4, in <module>
+    import apifunc
+  File "/home/daryanovsel/projects/VKbot/apifunc.py", line 46
+    if type
+          ^
+SyntaxError: invalid syntax
+
+
+INFO     [2017-06-07 19:09:50,678]  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+INFO     [2017-06-07 19:09:54,083]  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+INFO     [2017-06-07 19:10:08,330] 87.240.173.170 - - [07/Jun/2017 19:10:08] "[37mPOST /vkbot HTTP/1.1[0m" 200 -
+INFO     [2017-06-07 19:10:08,334] Starting new HTTPS connection (1): api.vk.com
+DEBUG    [2017-06-07 19:10:08,676] "POST /method/users.get HTTP/1.1" 200 191
+ERROR    [2017-06-07 19:10:08,678] Error in api.func.whatname
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/apifunc.py", line 45, in whatname
+    name = self.api.users.get(user_ids=id,name_case=case)[0]
+  File "/usr/local/lib/python2.7/dist-packages/vk-2.0.2-py2.7.egg/vk/api.py", line 183, in __call__
+    return self._api._session.make_request(self)
+  File "/usr/local/lib/python2.7/dist-packages/vk-2.0.2-py2.7.egg/vk/api.py", line 105, in make_request
+    raise error
+VkAPIError: 5. User authorization failed: method is unavailable with group auth.. request_params = {u'oauth': u'1', u'name_case': u'nom', u'user_ids': u'183156791', u'method': u'users.get', u'v': u'5.63'}
+
+
+DEBUG    [2017-06-07 19:10:08,905] "POST /method/messages.send HTTP/1.1" 200 37
+INFO     [2017-06-07 19:14:14,034]  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+INFO     [2017-06-07 19:14:21,094] 87.240.173.204 - - [07/Jun/2017 19:14:21] "[37mPOST /vkbot HTTP/1.1[0m" 200 -
+INFO     [2017-06-07 19:14:21,098] Starting new HTTPS connection (1): api.vk.com
+DEBUG    [2017-06-07 19:14:21,584] "POST /method/users.get HTTP/1.1" 200 191
+ERROR    [2017-06-07 19:14:21,586] Error in api.func.whatname
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/apifunc.py", line 45, in whatname
+    name = self.api.users.get(user_ids=id,name_case=case)[0]
+  File "/usr/local/lib/python2.7/dist-packages/vk-2.0.2-py2.7.egg/vk/api.py", line 183, in __call__
+    return self._api._session.make_request(self)
+  File "/usr/local/lib/python2.7/dist-packages/vk-2.0.2-py2.7.egg/vk/api.py", line 105, in make_request
+    raise error
+VkAPIError: 5. User authorization failed: method is unavailable with group auth.. request_params = {u'oauth': u'1', u'name_case': u'nom', u'user_ids': u'183156791', u'method': u'users.get', u'v': u'5.63'}
+
+
+DEBUG    [2017-06-07 19:14:21,814] "POST /method/messages.send HTTP/1.1" 200 37
+INFO     [2017-06-07 19:23:29,451]  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+INFO     [2017-06-07 19:23:39,193] 87.240.173.169 - - [07/Jun/2017 19:23:39] "[37mPOST /vkbot HTTP/1.1[0m" 200 -
+INFO     [2017-06-07 19:23:39,196] Starting new HTTPS connection (1): api.vk.com
+DEBUG    [2017-06-07 19:23:39,484] "POST /method/users.get HTTP/1.1" 200 84
+INFO     [2017-06-07 19:23:39,487] Starting new HTTPS connection (1): api.vk.com
+DEBUG    [2017-06-07 19:23:39,919] "POST /method/messages.send HTTP/1.1" 200 37
+INFO     [2017-06-07 19:26:40,540]  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+INFO     [2017-06-07 19:26:56,255] 87.240.173.167 - - [07/Jun/2017 19:26:56] "[37mPOST /vkbot HTTP/1.1[0m" 200 -
+INFO     [2017-06-07 19:26:56,259] Starting new HTTPS connection (1): api.vk.com
+DEBUG    [2017-06-07 19:26:56,880] "POST /method/users.get HTTP/1.1" 200 94
+INFO     [2017-06-07 19:26:56,882] Starting new HTTPS connection (1): api.vk.com
+DEBUG    [2017-06-07 19:26:57,168] "POST /method/messages.send HTTP/1.1" 200 37
+INFO     [2017-06-07 23:30:34,989] 139.162.114.70 - - [07/Jun/2017 23:30:34] "[33mGET / HTTP/1.1[0m" 404 -
+ERROR    [2017-06-09 01:42:21,388] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 57, in add_user
+    return cur.execute('''INSERT OR REPLACE INTO '''+self.db_name+''' (user_id, member, date, subscription, data1, data2, data3) values (?,?,?,?,?,?,?);''',[x for x in req.values()])
+ProgrammingError: Incorrect number of bindings supplied. The current statement uses 7, and there are 6 supplied.
+
+
+ERROR    [2017-06-09 01:47:41,561] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 59, in add_user
+    return cur.execute('''INSERT OR REPLACE INTO '''+self.db_name+''' (user_id, member, date, subscription, data1, data2, data3) values (?,?,?,?,?,?,?);''',[id]+[x for x in req.values()])
+AttributeError: 'NoneType' object has no attribute 'values'
+
+
+ERROR    [2017-06-09 01:48:10,531] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 60, in add_user
+    return cur.execute('''INSERT OR REPLACE INTO '''+self.db_name+''' (user_id, member, date, subscription, data1, data2, data3) values (?,?,?,?,?,?,?);''',[id]+[x for x in req.values()])
+AttributeError: 'NoneType' object has no attribute 'values'
+
+
+ERROR    [2017-06-09 01:48:18,141] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 60, in add_user
+    return cur.execute('''INSERT OR REPLACE INTO '''+self.db_name+''' (user_id, member, date, subscription, data1, data2, data3) values (?,?,?,?,?,?,?);''',[id]+[x for x in req.values()])
+AttributeError: 'NoneType' object has no attribute 'values'
+
+
+ERROR    [2017-06-09 02:47:39,779] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: near "<": syntax error
+
+
+ERROR    [2017-06-09 02:47:49,912] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such column: time
+
+
+ERROR    [2017-06-09 03:03:48,155] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 57, in insert_user
+    default= {'member':ufd[1],'date':ufd[2],'subscription':ufd[3],'data1':ufd[4],'data2':ufd[5],'data3':ufd[6]}
+IndexError: list index out of range
+
+
+ERROR    [2017-06-09 03:04:27,729] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 58, in insert_user
+    default= {'member':ufd[1],'date':ufd[2],'subscription':ufd[3],'data1':ufd[4],'data2':ufd[5],'data3':ufd[6]}
+IndexError: list index out of range
+
+
+ERROR    [2017-06-09 12:31:22,806] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+KeyboardInterrupt
+
+
+ERROR    [2017-06-09 13:07:16,111] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 44, in find_user
+    with sqlite3.connect('.' + os.sep + 'databases' + os.sep + self.db_name + '.db') as con:
+KeyboardInterrupt
+
+
+ERROR    [2017-06-09 13:49:32,493] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,493] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,494] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,496] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,496] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,497] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,497] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,498] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,498] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,499] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,499] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,500] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,501] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,501] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,502] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,503] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,503] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,504] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,505] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,505] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,506] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,507] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,508] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,508] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,509] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,510] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,511] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,511] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,512] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,512] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,513] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,514] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,514] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,515] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,516] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,517] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,517] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,518] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,519] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,519] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,520] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,521] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,521] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,522] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,523] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,524] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,525] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,523] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,526] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,526] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,527] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,527] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,528] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,529] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,530] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,530] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,531] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,531] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,532] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,532] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,533] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,533] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,534] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,534] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,535] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,536] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,535] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,536] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,537] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,538] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,538] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,539] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,539] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,540] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,541] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,541] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,542] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,542] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,543] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,543] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,544] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,544] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,545] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,546] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,546] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,547] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,547] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,548] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,548] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,549] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,549] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,550] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,550] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,551] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,552] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,552] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,553] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,553] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,554] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,554] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,555] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,556] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,556] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,557] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,557] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,558] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+DatabaseError: database disk image is malformed
+
+
+ERROR    [2017-06-09 13:49:32,559] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:32,559] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:35,904] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+KeyboardInterrupt
+
+
+ERROR    [2017-06-09 13:49:41,811] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,811] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,815] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,817] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,817] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,818] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,819] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,819] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,820] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,820] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,821] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,821] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,822] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+DatabaseError: database disk image is malformed
+
+
+ERROR    [2017-06-09 13:49:41,822] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,823] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,823] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,824] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,824] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,825] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,826] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,826] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,827] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,827] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,831] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,832] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,833] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,833] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,834] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,834] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,835] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,835] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,836] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,836] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,837] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,837] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,838] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,839] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,839] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,840] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,840] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,841] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,841] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,842] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,842] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,843] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,843] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,844] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,844] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,845] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,845] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,846] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,846] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,847] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,847] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,848] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,848] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,849] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,849] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,850] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,850] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,855] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,856] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,856] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,857] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,858] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,858] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,859] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,859] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,860] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,860] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,861] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,861] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,862] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,862] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,862] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,863] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,864] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,864] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,865] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,865] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,865] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,866] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,866] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,867] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,867] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,868] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,868] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,869] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,869] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,870] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,870] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,871] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,871] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,872] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,872] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,873] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,873] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,874] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:49:41,875] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:50:31,184] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+KeyboardInterrupt
+
+
+ERROR    [2017-06-09 13:50:40,968] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+KeyboardInterrupt
+
+
+ERROR    [2017-06-09 13:51:38,021] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,022] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,023] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,024] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,025] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,026] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,027] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,027] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,028] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,029] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,030] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,031] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,032] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,032] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,033] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,034] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,035] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,036] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,037] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,037] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,038] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,039] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,040] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,041] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,042] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,042] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,043] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,044] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,045] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,046] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,047] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,048] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,048] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,049] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,050] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,051] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,051] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,052] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,052] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,053] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,054] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,055] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,055] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,055] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,056] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,057] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,057] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,057] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,058] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,058] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,059] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,059] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,060] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,060] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,061] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,061] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,062] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,062] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,063] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,063] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,063] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,064] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,064] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,065] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,065] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,066] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,066] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,066] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,067] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,067] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,068] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,068] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,069] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,069] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,070] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,070] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,070] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,071] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,071] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,072] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,072] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,072] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,073] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,073] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,074] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,074] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,075] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,075] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,076] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,076] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,077] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,077] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,077] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,078] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,078] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,079] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,079] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,079] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,080] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,080] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,081] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,081] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,082] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,082] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,083] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,082] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,084] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:51:38,084] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,723] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,725] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,726] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,727] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,727] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,729] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,729] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,730] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,731] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,731] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,733] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,733] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,734] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,739] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,735] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,742] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,743] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,746] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,747] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,748] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,749] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,750] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,751] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,751] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,752] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,753] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,753] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,754] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,754] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,755] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,756] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,756] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,757] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,758] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,758] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,759] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,760] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,760] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,761] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,762] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,762] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,763] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,764] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,765] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,766] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,767] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,768] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,769] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,770] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,771] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,772] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,772] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,773] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,774] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,775] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,775] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,776] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,777] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,778] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,778] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,779] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,779] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,780] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,780] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,781] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,782] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,783] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,783] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,784] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,785] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,786] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,786] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,787] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
+ERROR    [2017-06-09 13:52:06,788] Error in utils
+Traceback (most recent call last):
+  File "/home/daryanovsel/projects/VKbot/utils.py", line 46, in find_user
+    cur.execute('''SELECT * FROM {} WHERE {}'''.format(self.db_name,req))
+OperationalError: no such table: users
+
+
