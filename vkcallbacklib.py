@@ -72,6 +72,7 @@ class callback:
                     return answ
                 except Exception as exp:
                     resume = False
+                    print self._out.exps
                     for i in self._out.exps:
                         if i['string'].lower() in str(traceback.format_exc()).lower():
                             wtd_con =i['func'](traceback.format_exc())
