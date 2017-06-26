@@ -82,12 +82,14 @@ def check_users():
                 utils.insert_users(id=i,member=1,time=0,mesallow=1)
         else:
             for c in range(0, ofset):
-                for i in vkapi.groups.getMembers(group_id=settings.group_id, offset=ofset * 1000)["items"]:
+                for i in vkapi.groups.getMembers(group_id=settings.group_id, offset=c * 1000)["items"]:
                     utils.insert_users(id=i, member=1,time=0,mesallow=1)
-                    print 'imported %d users' % (len(utils.getusers()))
+                print 'imported %d users' % (len(utils.getusers()))
+                print c
+
         print 'imported %d users'%(users)
 
-threading.Thread(target=check_users).start()
+# threading.Thread(target=check_users).start()
 
 
 
