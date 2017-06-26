@@ -73,7 +73,7 @@ def check_users():
     #     try:
     count = len(utils.getusers())
     users = vkapi.groups.getMembers(group_id=settings.group_id)['count']
-
+    print 'importing %d users' % (users)
 
     if count < users:
         ofset = users // 1000
@@ -84,7 +84,8 @@ def check_users():
             for c in range(0, ofset):
                 for i in vkapi.groups.getMembers(group_id=settings.group_id, offset=ofset * 1000)["items"]:
                     utils.insert_users(id=i, member=1,time=0,mesallow=1)
-                time.sleep(0.2)
+                    print 'imported %d users' % (len(utils.getusers()))
+        print 'imported %d users'%(users)
 
 threading.Thread(target=check_users).start()
 
