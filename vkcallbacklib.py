@@ -73,7 +73,7 @@ class callback:
                 except Exception as exp:
                     resume = False
                     for i in self._out.exps:
-                        if i['string'] in str(traceback.format_exc()).lower():
+                        if i['string'].lower() in str(traceback.format_exc()).lower():
                             wtd_con =i['func'](traceback.format_exc())
                             if 'continue' in wtd_con:
 
