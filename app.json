@@ -18,11 +18,8 @@
     "appname": {
       "description": "App name (enter the same name as in field 'App name')",
       "value": ""
-    },
-    "VK_ADMIN_ID": {
-      "description": "ID of admin(without id, only numbers)",
-      "value": "183156791"
     }
+
   },
     "buildpacks": [
     {

@@ -2994,3 +2994,24 @@ Traceback (most recent call last):
 OperationalError: no such table: users
 
 
+INFO     [2017-06-25 18:45:26,308] Starting new HTTPS connection (1): api.vk.com
+DEBUG    [2017-06-25 18:45:26,596] "POST /method/groups.setCallbackSettings HTTP/1.1" 200 34
+DEBUG    [2017-06-25 18:45:26,679] "POST /method/groups.getMembers HTTP/1.1" 200 101
+DEBUG    [2017-06-25 18:45:26,776] "POST /method/groups.getMembers HTTP/1.1" 200 101
+INFO     [2017-06-25 18:45:26,804]  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+DEBUG    [2017-06-25 18:45:31,895] "POST /method/groups.getCallbackServerSettings HTTP/1.1" 200 90
+INFO     [2017-06-25 18:45:38,271] 87.240.173.185 - - [25/Jun/2017 18:45:38] "[37mPOST /vkbot HTTP/1.1[0m" 200 -
+DEBUG    [2017-06-25 18:45:38,347] "POST /method/messages.isMessagesFromGroupAllowed HTTP/1.1" 200 49
+DEBUG    [2017-06-25 18:45:38,602] "POST /method/messages.send HTTP/1.1" 200 37
+INFO     [2017-06-25 18:45:38,946] 87.240.160.177 - - [25/Jun/2017 18:45:38] "[37mPOST /vkbot HTTP/1.1[0m" 200 -
+DEBUG    [2017-06-25 18:45:39,016] "POST /method/messages.isMessagesFromGroupAllowed HTTP/1.1" 200 49
+DEBUG    [2017-06-25 18:45:39,160] "POST /method/messages.send HTTP/1.1" 200 37
+INFO     [2017-06-25 18:51:30,373] Starting new HTTPS connection (1): api.vk.com
+DEBUG    [2017-06-25 18:51:30,739] "POST /method/groups.setCallbackSettings HTTP/1.1" 200 34
+DEBUG    [2017-06-25 18:51:30,825] "POST /method/groups.getMembers HTTP/1.1" 200 101
+DEBUG    [2017-06-25 18:51:30,915] "POST /method/groups.getMembers HTTP/1.1" 200 101
+INFO     [2017-06-25 18:51:30,945]  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+DEBUG    [2017-06-25 18:51:36,039] "POST /method/groups.getCallbackServerSettings HTTP/1.1" 200 90
+INFO     [2017-06-25 21:08:55,108] Resetting dropped connection: api.vk.com
+DEBUG    [2017-06-25 21:08:55,325] "POST /method/groups.getCallbackConfirmationCode HTTP/1.1" 200 50
+INFO     [2017-06-25 21:08:55,327] 87.240.173.157 - - [25/Jun/2017 21:08:55] "[37mPOST /vkbot HTTP/1.1[0m" 200 -

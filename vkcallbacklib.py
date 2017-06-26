@@ -12,17 +12,10 @@ from time import sleep
 from antigate import AntiGate
 import requests
 from Queue import Queue
+exq = Queue()
 
-logger = logging.getLogger('vkcallbacklib')
-formatter = logging.Formatter(
-    '%(asctime)s (%(filename)s:%(lineno)d %(threadName)s) %(levelname)s - %(name)s: "%(message)s"'
-)
+logging.basicConfig(format = u'%(levelname)-8s [%(asctime)s] %(message)s', level = logging.DEBUG, filename = u'bot.log')
 
-console_output_handler = logging.StreamHandler(sys.stderr)
-console_output_handler.setFormatter(formatter)
-logger.addHandler(console_output_handler)
-
-logger.setLevel(logging.ERROR)
 
 
 
@@ -32,6 +25,7 @@ class callback:
         self.api = vk.API(vk.Session(access_token=token), v=apiv, timeout=timeout)
         self.handlers = []
         self.updates = []
+        self.exps=[]
         self.confirmation = confirmation
         self.group_id = group_id
         self.anti_key = anti_key
@@ -44,14 +38,58 @@ class callback:
                 del response
                 return str(captcha)
             else:
-                logger.error('Anticaptcha error: zero balance')
+                logging.error('Anticaptcha error: zero balance')
         else:
             return None
 
     vk.Session.get_captcha_key = captcha_wrapper
 
     def vkapi(self):
-        return self.api
+        return self.vkapic(self)
+    class vkapic(object):
+        def __init__(self,out):
+            self.out=out
+        def __getattr__(self, method_name):
+            return self.out.req(self, method_name,self.out)
+
+    class req(object):
+        __slots__ = ('_api', '_method_name', '_method_args','_out')
+
+        def __init__(self, api, method_name,out):
+            self._api = api
+            self._method_name = method_name
+            self._out = out
+
+        def __getattr__(self, method_name):
+
+            return self._out.req(self._api, self._method_name + '.' + method_name,self._out)
+
+        def __call__(self, **method_args):
+
+            while True:
+                try:
+                    answ = eval('self._out.api.' + self._method_name +'(**method_args)')
+                    return answ
+                except Exception as exp:
+                    for i in self._out.exps:
+                        if i['string'] in str(traceback.format_exc()).lower():
+                            wtd_con =i['func'](traceback.format_exc())
+                            if 'continue' in wtd_con:
+
+                                continue
+                            else:
+
+                                break
+                    raise exp
+
+
+
+    def exp_handler(self, func=None, string=''):
+        def decorator(handler):
+            self.exps.append({'func': handler, 'string': string})
+            return handler
+        return decorator
+
     def message_handler(self, func=None, types=None):
         if types is None:
             types = ['message_new']
@@ -68,7 +106,7 @@ class callback:
                     try:
                         i['func'](utils.dotdict(u))
                     except:
-                        logger.error('Error while executing handler:\n'+str(traceback.format_exc()))
+                        logging.error('Error while executing handler:\n'+str(traceback.format_exc()))
             self.updates.remove(u)
             sleep(0.1)
 
@@ -76,7 +114,7 @@ class callback:
         try:
             update = json.loads(update)
         except ValueError:
-            logger.error('Error while decoding update: %s \n Traceback:'+str(traceback.format_exc())+'-'*10+'\n')
+            logging.error('Error while decoding update: %s \n Traceback:'+str(traceback.format_exc())+'-'*10+'\n')
 
         u_type = update['type']
         if u_type == 'confirmation':
