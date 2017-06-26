@@ -71,16 +71,21 @@ class callback:
                     answ = eval('self._out.api.' + self._method_name +'(**method_args)')
                     return answ
                 except Exception as exp:
+                    resume = False
                     for i in self._out.exps:
                         if i['string'] in str(traceback.format_exc()).lower():
                             wtd_con =i['func'](traceback.format_exc())
                             if 'continue' in wtd_con:
 
-                                continue
+                                resume = True
                             else:
 
-                                break
-                    raise exp
+                                resume = False
+                    if resume:
+                        continue
+                    else:
+                        raise exp
+                        break
 
 
 
