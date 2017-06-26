@@ -11,6 +11,8 @@ def answers(helper,text,user_id,attachments,message):
 
         if utils.getusers(id=user_id)[0]['member']==1:
             helper.send_message(user_id=user_id,message=hotoscope.returnHoroScope(id=user_id,zod=text.lower()))
+        else:
+            helper.send_message(user_id=user_id, message=settings.joinpls)
     else:
         if helper.api.groups.isMember(group_id=settings.group_id,user_id=user_id)==1:
             utils.insert_users(id=user_id,member=1,mesallow=1,time=0)
