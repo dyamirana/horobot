@@ -76,6 +76,7 @@ class callback:
                     for i in self._out.exps:
                         if i['string'].lower() in str(traceback.format_exc()).lower():
                             wtd_con =i['func'](traceback.format_exc())
+                            print wtd_con
                             if 'continue' in wtd_con:
 
                                 resume = True
