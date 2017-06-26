@@ -16,8 +16,8 @@ symbols = {u'овен':'aries',u'телец':'taurus',u'близнец':'gemini'
 
 def returnHoroScope(id,zod):
     if len(utils.getusers(id=id))>0:
-        # if utils.getusers(id=id)[0]['time'] > time.time():
-        #     return u'Попробуйте завтра, на сегодня у Ваc уже есть предсказания'
+        if utils.getusers(id=id)[0]['time'] > time.time():
+            return u'Попробуйте завтра, на сегодня у Ваc уже есть предсказания'
         if zod not in symbols.keys():
             return u'Укажите точнее Ваш знак зодиака'
         r = requests.get('http://img.ignio.com/r/export/utf/xml/daily/com.xml').text
