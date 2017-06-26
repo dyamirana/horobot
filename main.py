@@ -30,7 +30,10 @@ if settings.token is not None and settings.group_id is not None:
 else:
     print 'Fill token and group id in settings'
     sys.exit(1)
-
+@vk.exp_handler(string='vk.exceptions.VkAPIError: 10')
+def dbproblem(exp):
+    print 'suka'
+    return 'continue'
 
 # set callback server
 def set_callback(url=settings.host+'/vkbot'):
@@ -85,10 +88,7 @@ def check_users():
 
 check_users()
 
-@vk.exp_handler(string='vk.exceptions.VkAPIError: 10')
-def dbproblem(exp):
-    print 'suka'
-    return 'continue'
+
 
 # Message answer module
 try:
