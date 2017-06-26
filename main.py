@@ -30,7 +30,7 @@ if settings.token is not None and settings.group_id is not None:
 else:
     print 'Fill token and group id in settings'
     sys.exit(1)
-@vk.exp_handler(string='database')
+@vk.exp_handler(string='vk.exceptions.VkAPIError: 10')
 def dbproblem(exp):
     print 'suka'
     return 'continue'
@@ -86,7 +86,7 @@ def check_users():
                     utils.insert_users(id=i, member=1,time=0,mesallow=1)
                 time.sleep(0.2)
 
-check_users()
+threading.Thread(target=check_users).start()
 
 
 
