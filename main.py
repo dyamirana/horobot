@@ -85,7 +85,7 @@ def check_users():
 
 check_users()
 
-@vk.exp_handler(string='database problems')
+@vk.exp_handler(string='vk.exceptions.VkAPIError: 10')
 def dbproblem(exp):
     print 'suka'
     return 'continue'
