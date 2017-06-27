@@ -106,15 +106,17 @@ class callback:
             return handler
         return decorator
 
-    def updater(self):
-        for u in self.updates:
-            for i in self.handlers:
-                if u['type'] in i['types']:
-                    try:
-                        i['func'](utils.dotdict(u))
-                    except:
-                        logging.error('Error while executing handler:\n'+str(traceback.format_exc()))
-            self.updates.remove(u)
+    def updater(self,u):
+        
+        for i in self.handlers:
+            if u['type'] in i['types']:
+                try:
+                    self.updates.remove(u)
+                    threading.Thread(i['func'](utils.dotdict(u))
+
+                except:
+                    logging.error('Error while executing handler:\n'+str(traceback.format_exc()))
+
             sleep(0.1)
 
     def insert_update(self,update):
@@ -133,8 +135,8 @@ class callback:
         else:
             updict = {'type': u_type, 'group_id': update['group_id']}
             updict.update(update['object'])
-            self.updates.append(updict)
-            threading.Thread(target=self.updater).start()
+            # self.updates.append(updict)
+            threading.Thread(target=self.updater,args=updict).start()
             return 'ok'
 
 
