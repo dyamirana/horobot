@@ -112,7 +112,7 @@ class callback:
                 if u['type'] in i['types']:
                     try:
                         self.updates.remove(u)
-                        threading.Thread(i['func'](utils.dotdict(u))
+                        i['func'](utils.dotdict(u))
 
                     except:
                         logging.error('Error while executing handler:\n'+str(traceback.format_exc()))
