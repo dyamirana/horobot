@@ -8,7 +8,6 @@ logging.basicConfig(format = u'%(levelname)-8s [%(asctime)s] %(message)s', level
 class Functions:
     def __init__(self,api):
         self.api = api
-        self.db = utils.DB('users')
         self.pubapi=vk.API(vk.Session(access_token='083a5837083a583708657de735086fac9f0083a083a583750f2072e9bdc2096b3522ed0'), v=5.65, timeout=30,lang=0)
 
 
@@ -39,11 +38,8 @@ class Functions:
 
             return mesid
         except Exception as exp:
-            if u'Database problems' in traceback.format_exc():
-
-                self.send_message(user_id=user_id, message=message, attachments=attachments, user_ids=user_ids, forward=forward, sticker_id=sticker_id)
             if u'users without permission' in str(exp):
-                self.db.insert_user(id=user_id,req={'subscription':0})
+                utils.insert_users(id=user_id,messallow=0)
                 return
             if settings.debug==True: print u'Error in api.func.send_message\n'+traceback.format_exc()+'\n'
             logging.error(u'Error in api.func.send_message\n'+traceback.format_exc()+'\n')
