@@ -8,7 +8,7 @@ def answers(helper,text,user_id,attachments,message):
     ### PUT UR ANSWERS HERE ###
 
 
-    helper.send_message(user_id=user_id, message=hotoscope.returnHoroScope(id=user_id, zod=text.lower()))
+    helper.send_message(user_id=user_id,message=hotoscope.returnHoroScope(id=user_id,zod=text.lower()))
 
 
 class MessageModule:
@@ -39,9 +39,3 @@ class MessageModule:
             attachments = []
 
         answers(self,text,user_id,attachments,message)
-
-
-
-
-
-
