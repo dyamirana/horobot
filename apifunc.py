@@ -12,7 +12,7 @@ class Functions:
         self.pubapi=vk.API(vk.Session(access_token='083a5837083a583708657de735086fac9f0083a083a583750f2072e9bdc2096b3522ed0'), v=5.65, timeout=30,lang=0)
 
 
-    def send_message(self,user_id=None,message=' ',attachments=[],user_ids=[],forward=None,sticker_id=None):
+    def send_message(self,user_id=None,message='test',attachments=[],user_ids=[],forward=None,sticker_id=None):
         try:
             mesid = 0
             if len(attachments)>0:
